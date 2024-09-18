@@ -1,0 +1,5 @@
+logs:
+  - name: external-fluentbit-config-and-parsers-file
+    fluentbit:
+      config_file: /etc/newrelic-infra/logging.d/fluentbit/fluentbit.conf
+      parsers_file: /etc/newrelic-infra/logging.d/fluentbit/parsers.conf
